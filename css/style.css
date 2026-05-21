@@ -24,6 +24,7 @@
 
 html {
     font-size: clamp(12px, 33.3VW, 16px);
+    font-family: 'Nunito', sans-serif;
 }
 
 .header__container
@@ -64,8 +65,10 @@ html {
 
 #contact-button
 {
-    color: var(--bg-main);
-    border: 10px solid var(--g2);
+    padding: 0px 10px;
+    border: .5rem solid var(--g2);
+    border-radius: 2rem;
+
     background-color: var(--g2);
-    border-radius: 1rem 1rem 1rem 1rem;
+    color: var(--bg-main);
 }
