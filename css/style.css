@@ -63,12 +63,22 @@ html {
     color: var(--text-main);
 }
 
+.header__container .nav-bar a:hover
+{
+    color: var(--g3);
+}
+
 #contact-button
 {
+    background-color: var(--g2);
+    color: var(--bg-main);
+
     padding: 0px 10px;
     border: .5rem solid var(--g2);
     border-radius: 2rem;
+}
 
-    background-color: var(--g2);
-    color: var(--bg-main);
+#contact-button:hover
+{
+    color: var(--g1);
 }
