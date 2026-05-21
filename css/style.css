@@ -45,7 +45,9 @@ html {
 
 .header__container h1
 {
+    color: var(--text-bold);
     padding: 0rem 0rem 0rem 3rem;
+    font-style: italic;
 }
 
 .header__container .nav-bar ul
@@ -80,5 +82,6 @@ html {
 
 #contact-button:hover
 {
-    color: var(--g1);
+    border-color: var(--g3);
+    background-color: var(--g3);
 }
