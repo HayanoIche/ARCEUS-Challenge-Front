@@ -4,6 +4,14 @@
 
     --bg-main: #f4f1e8;
     --bg-dark: #e8e5d5;
+    
+    --bronze: #C4956A;
+
+    --g1: #D8DDA8;
+    --g2: #99A558;
+    --g3: #909632;
+    --g4: #41521E;
+    --g5: #27301B;
 }
 
 * {
@@ -52,4 +60,12 @@ html {
 {
     text-decoration: none;
     color: var(--text-main);
+}
+
+#contact-button
+{
+    color: var(--bg-main);
+    border: 10px solid var(--g2);
+    background-color: var(--g2);
+    border-radius: 1rem 1rem 1rem 1rem;
 }
