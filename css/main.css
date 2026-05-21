@@ -1,3 +1,74 @@
 main {
     background-color: var(--bg-main);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------------------------- */
+/*                   HERO CONTAINER                   */
+/* -------------------------------------------------- */
+
+.hero__container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.hero__container h2 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    font-size: 2.5rem;
+}
+
+.hero__container p {
+    padding-top: 3rem;
+    text-align: center;
+    max-width: 30rem;
+    width: 100%;
+}
+
+/* -------------------------------------------------- */
+/*              FUNCIONALIDADES CONTAINER             */
+/* -------------------------------------------------- */
+
+.funcionalidades__container {
+    background-color: var(--bg-dark);
+    display: flex;
+    flex-direction: column;
+
+    border: .5rem solid var(--bg-dark);
+    border-radius: 2rem;
+}
+
+
+.funcionalidades__container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 8VW;
+}
+
+.funcionalidades__container .card {
+
+    background-color: var(--bg-main);
+
+    min-width: 10rem;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+.funcionalidades__container .card p {
+    text-align: center;
+    max-width: 10rem;
+    width: 100%;
 }
