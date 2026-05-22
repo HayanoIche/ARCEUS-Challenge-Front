@@ -3,6 +3,7 @@ main {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 /* -------------------------------------------------- */
@@ -41,6 +42,9 @@ main {
 
 .funcionalidades__container {
     background-color: var(--bg-dark);
+
+    width: 90VW;
+
     display: flex;
     flex-direction: column;
 

@@ -27,6 +27,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -34,6 +35,17 @@
 {
     text-decoration: none;
     color: var(--text-main);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__container .nav-bar a img
+{
+    width: 2rem;
+    height: 2rem;
+    padding-right: .5rem;
 }
 
 .header__container .nav-bar a:hover
