@@ -24,5 +24,6 @@
 
 html {
     font-size: clamp(12px, 33.3VW, 16px);
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }

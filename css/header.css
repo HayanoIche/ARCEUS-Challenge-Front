@@ -1,7 +1,7 @@
 .header__container
 {
     width: 100%;
-    height: 10VH;
+    height: 9VH;
 
     display: flex;
     flex-direction: row;
@@ -11,7 +11,7 @@
 
     background-color: var(--bg-main);
 
-    border: .1rem solid var(--bg-dark);
+    border-bottom: .1rem solid var(--bg-dark);
 }
 
 .header__container h1
