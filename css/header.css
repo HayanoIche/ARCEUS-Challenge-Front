@@ -64,10 +64,10 @@
 }
 
 /* -------------------------------------------------- */
-/*                   HAMBURGER BUTTON                 */
+/*                    MENU BUTTON                     */
 /* -------------------------------------------------- */
 
-.hamburger {
+.menu {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -79,7 +79,7 @@
     border: none;
 }
 
-.hamburger span {
+.menu span {
     display: block;
     width: 1.6rem;
     height: .18rem;
@@ -89,21 +89,20 @@
     transform-origin: center;
 }
 
-/* Animate to X when open */
-.hamburger.open span:nth-child(1) {
+.menu.open span:nth-child(1) {
     transform: translateY(.58rem) rotate(45deg);
 }
 
-.hamburger.open span:nth-child(2) {
+.menu.open span:nth-child(2) {
     opacity: 0;
 }
 
-.hamburger.open span:nth-child(3) {
+.menu.open span:nth-child(3) {
     transform: translateY(-.58rem) rotate(-45deg);
 }
 
 /* -------------------------------------------------- */
-/*                   MOBILE STYLES                    */
+/*                   MOBILE STYLE                     */
 /* -------------------------------------------------- */
 
 @media (max-width: 768px) {
@@ -118,7 +117,7 @@
         padding: 0 0 0 1.5rem;
     }
 
-    .hamburger {
+    .menu {
         display: flex;
     }
 
