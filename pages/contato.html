@@ -18,40 +18,65 @@
 
 <body>
 
-<h2>Fale conosco</h2>
 
-<p>Envie suas dúvidas, sugestões ou feedback sobre o Arcgarden!</p>
-
-<form>
-
-<p>Nome completo</p>
-<input type="text" placeholder="Seu nome" required>
-
-<p>E-mail</p>
-<input type="email" placeholder="seu@email.com" required>
-
-<p>Assunto</p>
-<select required>
-  <option value="">Selecione</option>
-  <option>Dúvida</option>
-  <option>Sugestão</option>
-  <option>Problema</option>
-</select>
-
-<p>Mensagem</p>
-<textarea placeholder="Escreva sua mensagem" required></textarea>
-
-<br><br>
-<button type="submit">Enviar mensagem</button>
-
-</form>
-
-<h3>Informações</h3>
-
-<p>E-mail</p>
-<p>oarcgarden@gmail.com</p>
-
-<p>Arcgarden - Challenge FIAP 2026</p>
+  <main>
+    <section>
+      <div class="contato__container">
+ 
+        <h2 class="contato__titulo">Fale <em>conosco</em></h2>
+        <p class="contato__subtitulo">Envie suas dúvidas, sugestões ou feedback sobre o Arcgarden!</p>
+ 
+        <div class="contato__wrapper">
+        <form class="contato__form" id="contato-form">
+ 
+          <div class="contato__campo">
+            <label>Nome completo</label>
+            <input type="text" placeholder="Seu nome" required>
+          </div>
+ 
+          <div class="contato__campo">
+            <label>E-mail</label>
+            <input type="email" placeholder="seu@email.com" required>
+          </div>
+ 
+          <div class="contato__campo">
+            <label>Assunto</label>
+            <select required>
+              <option value="">Selecione</option>
+              <option>Dúvida</option>
+              <option>Sugestão</option>
+              <option>Problema</option>
+            </select>
+          </div>
+ 
+          <div class="contato__campo">
+            <label>Mensagem</label>
+            <textarea placeholder="Escreva sua mensagem" required></textarea>
+          </div>
+ 
+          <button class="contato__btn" type="submit">Enviar mensagem</button>
+ 
+        </form>
+ 
+        <div class="contato__info">
+          <h3>Informações</h3>
+          <p>E-mail</p>
+          <p class="contato__info">oarcgarden@gmail.com</p>
+          </div>
+        </div>
+ 
+      </div>
+    </section>
+  </main>
+ 
+  <footer>
+    <div class="footer__container">
+      <p>Arcgarden - Challenge FIAP 2026</p>
+    </div>
+  </footer>
+ 
+  <script src="script.js"></script>
+ 
 
 </body>
 </html>
