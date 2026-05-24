@@ -930,6 +930,7 @@
     gap: 1rem;
     width: 100%;
     max-width: 40rem;
+    padding-bottom: 1rem;
 }
  
 .contato__campo {
