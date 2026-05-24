@@ -164,7 +164,7 @@ sbre css
 
     .ranking__container {
         background-color: var(--g4);
-        width: 100vw;
+        width: 100%;
         min-height: 10rem;
         display: flex;
         flex-direction: column;
@@ -273,7 +273,7 @@ sbre css
 /*                  RESPONSIVO MOBILE                 */
 /* ================================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
 
     .hero__container {
         flex-direction: column;
@@ -408,7 +408,7 @@ sbre css
     }
 
     .ranking__container {
-        width: 100vw;
+        width: 100%;
         min-width: unset;
         box-sizing: border-box;
         padding: 0 1.5rem;
@@ -667,7 +667,7 @@ sbre css
         border-radius: 2rem;
     }
     
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
     
         .faq__container {
             padding: 2rem 1.5rem 3rem;
@@ -862,7 +862,7 @@ sbre css
         color: var(--text-main);
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
 
         .sobre__container {
             padding: 3rem 1.5rem 4rem;
@@ -1017,7 +1017,7 @@ sbre css
     color: var(--g4) !important;
 }
  
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
  
     .contato__container {
         padding: 3rem 1.5rem 4rem;

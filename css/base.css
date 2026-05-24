@@ -16,7 +16,7 @@
 }
 
 * {
-    max-width: 100VW;
+    max-width: 100%;
 
     border: 0;
     margin: 0;
@@ -27,4 +27,7 @@ html {
     font-size: clamp(12px, 33.3VW, 16px);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+
+    scrollbar-gutter: stable;
+    box-sizing: border-box;
 }
