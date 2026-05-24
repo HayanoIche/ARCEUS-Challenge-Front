@@ -1016,3 +1016,15 @@ sbre css
     font-weight: 700;
     color: var(--g4) !important;
 }
+ 
+@media (max-width: 768px) {
+ 
+    .contato__container {
+        padding: 3rem 1.5rem 4rem;
+    }
+ 
+    .contato__titulo {
+        font-size: 2rem;
+    }
+}
+ 
