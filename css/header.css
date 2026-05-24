@@ -15,8 +15,8 @@
     position: relative;
 }
 
-.header__container h1 {
-    color: var(--text-bold);
+.header__container img {
+    width: 13rem;
     padding: 0rem 0rem 0rem 3rem;
     font-style: italic;
 }
