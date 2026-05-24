@@ -54,26 +54,26 @@ No projeto estão separados nas pastas
 
 links das redes sociais:
 
-### Danielle Kagan
+### Danielle Kagan - 1TDSPK - RM569359
 
 github 
 - Github: https://github.com/daniellekgn
 - Linkedin: https://www.linkedin.com/in/danielle-fernanda-69a974405/
 
-### Igor Mateus
+### Igor Mateus - 1TDSPK - RM571751
 
 - Github: https://github.com/HayanoIche
 - Linkedin: https://www.linkedin.com/in/igor-mateus-da-silva-4b05013ba/
 
-### Marcela Batista
+### Marcela Batista - 1TDSPK - RM574069
 
 - Github: https://github.com/wonbindasilva
 - Linkedin: https://www.linkedin.com/in/marcelabteixeira/
 
-### Matheus Pereira
+### Matheus Pereira - 1TDSPK - RM573327
 
-- Github: 
-- Linkedin:
+- Github: https://github.com/pereirinh44
+- Linkedin: https://linkedin.com/in/matheus-pereira-8700893b3
 
 ## Representação do projeto
 
@@ -83,6 +83,10 @@ Fluxo da gameplay do ArcGarden:
 Exemplo de UI:
 <br>
 <img src="images/app/ui.png" width="300" alt="Descrição da imagem">
+
+# Link do Repositório
+
+https://github.com/HayanoIche/ARCEUS-Challenge-Front
 
 ## Contato
 
