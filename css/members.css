@@ -1,5 +1,5 @@
 /* -------------------------------------------------- */
-/*                   MAIN / HERO                      */
+/*                      MAIN                          */
 /* -------------------------------------------------- */
 
 main {
@@ -88,10 +88,6 @@ main > p {
     color: var(--g4);
 }
 
-.integrante__card p:last-child {
-    margin-top: 0.4rem;
-}
-
 .integrante__card a {
     color: var(--g4);
     text-decoration: none;
@@ -103,3 +99,44 @@ main > p {
     color: var(--g3);
 }
 
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    main {
+        padding: 3rem 1.2rem 4rem;
+    }
+
+    main > h2 {
+        font-size: 2.2rem;
+    }
+
+    main > p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 60%;
+    }
+
+    .integrante__card {
+        padding: 1.2rem;
+        border-radius: 1.2rem;
+    }
+
+    .integrante__card img {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .integrante__card h3 {
+        font-size: 0.95rem;
+    }
+
+    .integrante__card p {
+        font-size: 0.8rem;
+    }
+}
