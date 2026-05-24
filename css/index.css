@@ -15,6 +15,7 @@ sbre css
         display: flex;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         gap: 3vw;
         padding-top: 7rem;
         padding-bottom: 8rem;
@@ -555,7 +556,8 @@ sbre css
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 4rem 2rem 5rem 0rem;
+        
+        padding: 4rem 2rem 5rem;
         width: 100%;
         box-sizing: border-box;
     }
@@ -630,9 +632,10 @@ sbre css
         background-color: var(--g4);
         border-radius: 1.5rem;
         width: 100%;
+        align-self: stretch;
         max-width: 58rem;
-        margin-top: 2rem;
-        margin-bottom: 4rem;
+        margin: 2rem auto 4rem;
+       
         padding: 2rem;
         display: flex;
         flex-direction: column;
