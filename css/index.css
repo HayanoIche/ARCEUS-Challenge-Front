@@ -516,3 +516,149 @@ main {
         width: 100%;
     }
 }
+
+
+@media (max-width: 400px) {
+ 
+    .funcionalidades__container .card {
+        width: 100%;
+    }
+ 
+    .comofunciona__container ul li {
+        width: 100%;
+    }
+ 
+    .comofunciona__container .card {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0.75rem 1rem;
+        gap: 1rem;
+        min-height: unset;
+    }
+ 
+    .comofunciona__container .card p {
+        text-align: left;
+    }
+ 
+    .integracao__container .card {
+        width: 100%;
+    }
+}
+ 
+/* -------------------------------------------------- */
+/*                    FAQ CONTAINER                   */
+/* -------------------------------------------------- */
+ 
+    .faq__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 2rem 5rem 0rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .faq__container h2 {
+        font-size: 3rem;
+        color: var(--text-main);
+        text-align: center;
+        margin-bottom: 3.5rem;
+    }
+    
+    .faq__container .faq__subtitle {
+        font-size: 1rem;
+        color: var(--text-main);
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+    
+    .faq__container .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        width: 100%;
+        max-width: 58rem;
+    }
+
+    .faq__container .card {
+        width: calc(50% - 0.375rem);
+        min-height: 3.5rem;
+        box-sizing: border-box;
+        border: .2rem solid var(--g1);
+        border-radius: 1rem;
+        overflow: hidden;
+        
+    }
+    
+    .faq__container .card summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        cursor: pointer;
+        list-style: none;
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: var(--g4);
+    }
+    
+    .faq__container .card summary::-webkit-details-marker {
+        display: none;
+    }
+    
+    .faq__container .card summary::after {
+        content: '›';
+        font-size: 1.4rem;
+        color: var(--g3);
+    }
+    
+    .faq__container .card[open] summary::after {
+        transform: rotate(90deg);
+        display: inline-block;
+    }
+    
+    .faq__container .card p {
+        font-size: 0.85rem;
+        color: var(--text-main);
+        line-height: 1.6;
+        padding: 0 1.25rem 1.25rem;
+    }
+
+    .faq__cta {
+        background-color: var(--g4);
+        border-radius: 1.5rem;
+        width: 100%;
+        max-width: 58rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .faq__cta h3 {
+        font-size: 1.5rem;
+        color: var(--bg-main);
+        text-align: center;
+    }
+
+    .faq__cta p {
+        font-size: 1rem;
+        color: var(--g1);
+        text-align: center;
+    }
+
+    .faq__cta a {
+        margin-top: 0.75rem;
+        background-color: var(--g1);
+        color: var(--g4);
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 0.6rem 2rem;
+        border-radius: 2rem;
+    }
+    

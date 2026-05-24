@@ -4,77 +4,94 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQ - Arcgarden</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 
-<header>
-  <div class="container">
-    <h1>Arcgarden</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="solucao.html">Solução</a></li>
-        <li><a href="integrantes.html">Integrantes</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <header>
+    <div class="header__container">
+      <h1>Arcgarden</h1>
+
+      <button class="menu" id="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="../index.html"> <img src="../images/navbar/home.png" alt="Imagem Casinha">Home</a></li>
+          <li><a href="../pages/integrantes.html"> <img src="../images/navbar/members.png" alt="Imagem Pessoa"> Integrantes</a></li>
+          <li><a href="pages/sobre.html"> <img src="../images/navbar/about.png" alt="Imagem Livro"> Sobre</a></li>
+          <li><a href="pages/solucao.html"> <img src="../images/navbar/solution.png" alt="Imagem Lampada"> Solução</a></li>
+          <li><a href="#"> <img src="../images/navbar/faq.png" alt="Imagem Interrogação"> FAQ</a></li>
+          <li><a href="pages/contato.html" id="contact-button"> <img src="../images/navbar/contact.png" alt="Imagem Telefone"> Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 <main>
   <section>
-    <div class="container">
+    <div class="faq__container">
       <h2>Perguntas e respostas</h2>
 
       <div class="cards">
 
-        <div class="card">
-          <h3>O que é o Arcgarden?</h3>
+        
+        <details class="card">
+          <summary>O que é o Arcgarden?</summary>
           <p>O Arcgarden é um jogo de jardim virtual sustentável onde você completa missões no mundo real, grava vídeos comprovando suas ações e ganha recompensas pra cuidar do seu jardim.</p>
-        </div>
-
-        <div class="card">
-          <h3>Como completo uma missão?</h3>
+        </details>
+ 
+        <details class="card">
+          <summary>As plantas podem morrer?</summary>
+          <p>A planta murcha depois de alguns dias sem rega e para de pontuar no ranking. A planta não perde nível, é só regar que volta ao normal. Plantas nível 5 nunca murcham.</p>
+        </details>
+ 
+        <details class="card">
+          <summary>Como funciona a IA Iris?</summary>
           <p>Escolha a missão, grave um vídeo mostrando a ação sustentável e envie pelo app. A IA analisa e se o score for acima de 60%, você recebe Água e SoulPoints.</p>
-        </div>
-
-        <div class="card">
-          <h3>O que é Água e pra que serve?</h3>
+        </details>
+ 
+        <details class="card">
+          <summary>O que é a roleta diária?</summary>
           <p>Água é a moeda do Arcgarden. Serve pra regar plantas, comprar sementes, temas de jardim e girar a roleta.</p>
-        </div>
-
-        <div class="card">
-          <h3>O que são SoulPoints e como uso?</h3>
+        </details>
+ 
+        <details class="card">
+          <summary>O que são SoulPoints?</summary>
           <p>SoulPoints acumulam infinitamente e são trocados por benefícios reais fora do jogo, como desconto na conta de energia elétrica, em parceria com a SoulUp.</p>
-        </div>
-
-        <div class="card">
-          <h3>Como funciona o ranking?</h3>
-          <p>O Ranking Mensal é baseado no EcoScore (soma dos pontos das missões do mês). O 1º lugar ganha a conta de energia 100% paga, o 2º ganha 50% de desconto e o 3º ganha 25%.</p>
-        </div>
-
-        <div class="card">
-          <h3>O que acontece se eu não regar minhas plantas?</h3>
-          <p>A planta murcha depois de alguns dias sem rega (varia por tipo) e para de pontuar no ranking de jardim. A planta não perde nível, é só regar que volta ao normal. Plantas nível 5 nunca murcham.</p>
-        </div>
-
-        <div class="card">
-          <h3>O que são plantas brilhantes?</h3>
-          <p>São versões com coloração alternativa rara. Têm visual exclusivo, dão 1,5x mais score no ranking de jardim e valem 50% a mais ao vender.</p>
-        </div>
-
-        <div class="card">
-          <h3>Posso usar o mesmo vídeo em mais de uma missão?</h3>
-          <p>Não. O sistema verifica o arquivo e não permite reutilização de vídeos. Cada missão precisa de um vídeo novo.</p>
-        </div>
-
+        </details>
+ 
+        <details class="card">
+          <summary>Preciso pagar para jogar?</summary>
+          <p>Não. O Arcgarden é gratuito. Você só precisa ter conta na SoulUp e completar missões sustentáveis no dia a dia.</p>
+        </details>
+ 
+        <details class="card">
+          <summary>Como ganho desconto na energia?</summary>
+          <p>O Ranking Mensal é baseado no EcoScore. O 1º lugar ganha a conta de energia 100% paga, o 2º ganha 50% e o 3º ganha 25%.</p>
+        </details>
+ 
+        <details class="card">
+          <summary>Quando o ranking reseta?</summary>
+          <p>O ranking reseta todo início de mês. Os vencedores recebem os descontos na conta de energia do mês seguinte.</p>
+        </details>
       </div>
     </div>
+
+    <div class="faq__cta">
+    <h3>Ainda tem dúvidas?</h3>
+    <p>Entre em contato com a nossa equipe</p>
+    <a href="contato.html">Ir para contato</a>
+</div>
   </section>
 </main>
+
+
 
 <footer>
   <div class="container">
@@ -82,5 +99,6 @@
   </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
