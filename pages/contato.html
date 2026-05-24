@@ -7,6 +7,7 @@
    <title>Sobre - Arcgarden</title>
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,9 +18,32 @@
 </head>
 
 <body>
+    <header>
+    <div class="header__container">
+        <h1>Arcgarden</h1>
+
+        <button class="menu" id="menu" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+        </button>
+
+        <nav class="nav-bar" id="nav-bar">
+        <ul>
+            <li><a href=""> <img src="../images/navbar/home.png" alt="Imagem Casinha">Home</a></li>
+            <li><a href="pages/integrantes.html"> <img src="../images/navbar/members.png" alt="Imagem Pessoa"> Integrantes</a></li>
+            <li><a href="pages/sobre.html"> <img src="../images/navbar/about.png" alt="Imagem Livro"> Sobre</a></li>
+            <li><a href="pages/solucao.html"> <img src="../images/navbar/solution.png" alt="Imagem Lampada"> Solução</a></li>
+            <li><a href="pages/faq.html"> <img src="../images/navbar/faq.png" alt="Imagem Interrogação"> FAQ</a></li>
+            <li><a href="pages/contato.html" id="contact-button"> <img src="../images/navbar/contact.png" alt="Imagem Telefone"> Contato</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
 
 
   <main>
+    
     <section>
       <div class="contato__container">
  
@@ -70,9 +94,16 @@
   </main>
  
   <footer>
-    <div class="footer__container">
-      <p>Arcgarden - Challenge FIAP 2026</p>
-    </div>
+    <p> ©Arcgarden - Challenge FIAP 2026 </p>
+
+    <ul>
+        <li><a href="../index.html"> Home</a></li>
+        <li><a href="integrantes.html"> Integrantes</a></li>
+        <li><a href="sobre.html"> Sobre</a></li>
+        <li><a href="solucao.html"> Solução</a></li>
+        <li><a href="faq.html"> FAQ</a></li>
+        <li><a href=""> Contato</a></li>
+    </ul>
   </footer>
  
   <script src="script.js"></script>
