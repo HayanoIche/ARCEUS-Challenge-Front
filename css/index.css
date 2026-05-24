@@ -1,3 +1,5 @@
+sbre css
+
 main {
     background-color: var(--bg-main);
     display: flex;
@@ -683,4 +685,176 @@ main {
         }
     }
 
- 
+    /* -------------------------------------------------- */
+/*                   SOBRE CONTAINER                  */
+/* -------------------------------------------------- */
+
+.sobre__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem 5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sobre__container .sobre__badge {
+    background-color: var(--g1);
+    color: var(--g4);
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 0.3rem 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sobre__container .sobre__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-bold);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.sobre__container .sobre__titulo em {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    color: var(--g3);
+}
+
+.sobre__container .sobre__subtitulo {
+    font-size: 1rem;
+    color: var(--text-main);
+    text-align: center;
+    max-width: 40rem;
+    margin-bottom: 2.5rem;
+}
+
+/* -------------------------------------------------- */
+/*               PROBLEMA / SOLUCAO CARDS             */
+/* -------------------------------------------------- */
+
+.sobre__container .sobre__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    width: 100%;
+    max-width: 58rem;
+    margin-bottom: 3rem;
+}
+
+.sobre__container .sobre__card {
+    flex: 1;
+    border-radius: 1.5rem;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.sobre__container .sobre__card--problema {
+    background-color: var(--g4);
+}
+
+.sobre__container .sobre__card--solucao {
+    background-color: var(--g3);
+}
+
+.sobre__container .sobre__card h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--bg-main);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sobre__container .sobre__card p {
+    font-size: 0.9rem;
+    color: var(--g1);
+    line-height: 1.6;
+}
+
+/* -------------------------------------------------- */
+/*                   VISAO GERAL                      */
+/* -------------------------------------------------- */
+
+.sobre__container .visao__titulo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-bold);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.sobre__container .visao__titulo em {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+}
+
+.sobre__container .visao__cards {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    max-width: 58rem;
+    margin-bottom: 3rem;
+}
+
+.sobre__container .visao__card {
+    flex: 1;
+    background-color: var(--g1);
+    border: none;
+    border-radius: 0.75rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.sobre__container .visao__card h4 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-bold);
+}
+
+.sobre__container .visao__card p {
+    font-size: 0.82rem;
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+/* -------------------------------------------------- */
+/*                  PARCERIA SOULUP                   */
+/* -------------------------------------------------- */
+
+.sobre__container .parceria__container {
+    width: 100%;
+    max-width: 58rem;
+    background-color: var(--g1);
+    border: .2rem solid var(--g3);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.sobre__container .parceria__container h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-bold);
+    margin-bottom: 1rem;
+}
+
+.sobre__container .parceria__container h3 em {
+    font-family: 'Spectral', serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: var(--g3);
+}
+
+.sobre__container .parceria__container p {
+    font-size: 0.9rem;
+    color: var(--text-main);
+}

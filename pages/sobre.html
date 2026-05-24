@@ -1,24 +1,41 @@
+sobre html
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sobre - Arcgarden</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
  
-  <header>
-    <div class="container">
+<header>
+    <div class="header__container">
       <h1>Arcgarden</h1>
-      <nav>
+
+      <button class="menu" id="menu" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+      <nav class="nav-bar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="integrantes.html">Integrantes</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="solucao.html">Solução</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="../index.html"> <img src="../images/navbar/home.png" alt="Imagem Casinha">Home</a></li>
+          <li><a href="../integrantes.html"> <img src="../images/navbar/members.png" alt="Imagem Pessoa"> Integrantes</a></li>
+          <li><a href="#"> <img src="../images/navbar/about.png" alt="Imagem Livro"> Sobre</a></li>
+          <li><a href="../solucao.html"> <img src="../images/navbar/solution.png" alt="Imagem Lampada"> Solução</a></li>
+          <li><a href="../faq.html"> <img src="../images/navbar/faq.png" alt="Imagem Interrogação"> FAQ</a></li>
+          <li><a href="../contato.html" id="contact-button"> <img src="../images/navbar/contact.png" alt="Imagem Telefone"> Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -26,46 +43,59 @@
  
   <main>
     <section>
-      <div class="container">
+       <div class="sobre__container">
  
-        <h2>Sobre o projeto</h2>
+        <span class="sobre__badge">Sobre o projeto</span>
+        <h2 class="sobre__titulo">O que é o <em>Arcgarden</em></h2>
+        <p class="sobre__subtitulo">Uma solução gamificada que transforma ações sustentáveis do dia a dia em um jardim virtual dentro da Soul Up</p>
  
-        <h3>O que é o Arcgarden</h3>
-        <p>
-          Uma solução gamificada que transforma ações sustentáveis do dia a dia
-          em um jardim virtual dentro da Soul Up.
-        </p>
+        <div class="sobre__cards">
  
-        <h3>O problema</h3>
-        <p>
-          O consumo energético doméstico cresce a cada ano, mas falta incentivo
-          concreto para que as pessoas adotem hábitos sustentáveis. Apps de
-          sustentabilidade existem, mas são pouco atrativos, burocráticos e não geram
-          engajamento contínuo. Falta um incentivo real, dinâmico e recompensador.
-        </p>
+          <div class="sobre__card sobre__card--problema">
+            <h3>⚠️ O problema</h3>
+            <p>O consumo energético doméstico cresce a cada ano, mas falta incentivo concreto para que as pessoas adotem hábitos sustentáveis. Apps de sustentabilidade existem, mas são pouco atrativos, burocráticos e não geram engajamento contínuo.</p>
+          </div>
  
-        <h3>A solução</h3>
-        <p>
-          O ArcGarden propõe uma abordagem inovadora: gamificar a sustentabilidade.
-          Os usuários cumprem missões diárias gravando vídeos validados por IA e recebem recompensas
-          como Água, para evoluir seu jardim virtual, e SoulPoints, que geram benefícios reais. Além disso,
-          os melhores do ranking mensal ganham descontos na conta de energia elétrica.
-        </p>
+          <div class="sobre__card sobre__card--solucao">
+            <h3>💡 A solução</h3>
+            <p>O Arcgarden gamifica a sustentabilidade. Os usuários cumprem missões diárias gravando vídeos validados por IA e recebem recompensas como Água para evoluir seu jardim e SoulPoints que geram benefícios reais. Os melhores do ranking ganham desconto na conta de energia.</p>
+          </div>
  
-        <h3>Visão geral</h3>
+        </div>
  
-        <p><strong>Plataforma:</strong> Feature integrada ao app Soul Up</p>
-        <p><strong>Tecnologia:</strong> IA valida vídeos com score de 0 a 100%</p>
-        <p><strong>Economia:</strong> Água (in-game) + SoulPoints (benefícios reais)</p>
-        <p><strong>Impacto:</strong> Conta de energia subsidiada para os melhores</p>
+        <h2 class="visao__titulo">Visão geral</h2>
  
-        <h3>Parceria com a Soul Up</h3>
-        <p>
-         A Soul Up é um ecossistema digital focado em sustentabilidade, no qual o Arcgarden atua como uma funcionalidade
-         de gamificação integrada. Nele, os pontos conquistados ao longo do jogo podem ser convertidos em benefícios reais,
-         como descontos na conta de energia elétrica por meio do Vale Energia. A cada missão completada, o usuário contribui
-         com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
-        </p>
+        <div class="visao__cards">
+ 
+          <div class="visao__card">
+           
+            <h4>Plataforma</h4>
+            <p>Feature integrada ao app Soul Up</p>
+          </div>
+ 
+          <div class="visao__card">
+           
+            <h4>IA Iris</h4>
+            <p>Valida vídeos com score 0-100%</p>
+          </div>
+ 
+          <div class="visao__card">
+            
+            <h4>Economia</h4>
+            <p>Água (in-game) + SoulPoints (benefícios reais)</p>
+          </div>
+ 
+          <div class="visao__card">
+            <h4>Impacto</h4>
+            <p>Energia subsidiada para os melhores</p>
+          </div>
+ 
+        </div>
+ 
+        <div class="parceria__container">
+          <h3>Parceria com a <em>Soul Up</em></h3>
+          <p>A Soul Up é um ecossistema digital focado em sustentabilidade, no qual o Arcgarden atua como uma funcionalidade de gamificação integrada. Nele, os pontos conquistados ao longo do jogo podem ser convertidos em benefícios reais, como descontos na conta de energia elétrica por meio do Vale Energia. A cada missão completada, o usuário contribui com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU.</p>
+        </div>
  
       </div>
     </section>
@@ -77,5 +107,6 @@
     </div>
   </footer>
  
+<script src="script.js"></script>
 </body>
 </html>
