@@ -1,4 +1,4 @@
-![ARCGARDEN](/ARCEUS-Challenge-Front/images/logo.png)
+![ARCGARDEN](images/logo.png)
 
 ## GERAL
 
@@ -50,7 +50,7 @@ No projeto estão separados nas pastas
 
 ## Autores do Arcgarden
 
-![AUTORES](/ARCEUS-Challenge-Front/images/readme/readme-integrantes.png)
+![AUTORES](images/readme/readme-integrantes.png)
 
 links das redes sociais:
 
@@ -78,7 +78,7 @@ github
 ## Representação do projeto
 
 Fluxo da gameplay do ArcGarden:
-![FLUXO](/ARCEUS-Challenge-Front/images/app/fluxo.png)
+![FLUXO](images/app/fluxo.png)
 
 Exemplo de UI:
 <br>
