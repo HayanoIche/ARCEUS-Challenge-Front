@@ -2,8 +2,8 @@
     --text-main: #6b6b5e;
     --text-bold: #2c2c2a;
 
-    --bg-main:rgb(247, 230, 180);
-    --bg-dark:rgb(201, 189, 125);
+    --bg-main: #fffcf7;
+    --bg-dark: #C0C37F;
     
     --bronze: #C4956A;
 
@@ -12,6 +12,7 @@
     --g3: #909632;
     --g4: #41521E;
     --g5: #27301B;
+    --g6: #d3d3d3;
 }
 
 * {
