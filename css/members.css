@@ -1,41 +1,105 @@
+/* -------------------------------------------------- */
+/*                   MAIN / HERO                      */
+/* -------------------------------------------------- */
 
 main {
-    padding: 8rem 0;
     background-color: var(--bg-main);
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 1rem;
+    padding: 5rem 2rem 6rem;
+    gap: 0.5rem;
 }
+
+main > h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--text-bold);
+    text-align: center;
+}
+
+main > p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-main);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* -------------------------------------------------- */
+/*                        CARDS                       */
+/* -------------------------------------------------- */
 
 .cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    flex-wrap: wrap;
-
-    gap: 1rem;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    max-width: 36rem;
+    width: 100%;
+    box-sizing: border-box;
 }
+
+/* -------------------------------------------------- */
+/*                  INTEGRANTE CARD                   */
+/* -------------------------------------------------- */
 
 .integrante__card {
-    background-color: var(--bg-dark);
-    padding: .5rem 0;
-    
+    background-color: var(--bg-main);
+    border: .25rem solid var(--g1);
+    border-radius: 1.75rem;
+
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    
-    min-width: 25rem;
-    min-height: 20rem;
+    align-items: center;
 
-    border: 1rem solid var(--bg-dark);
-    border-radius: 2rem;
+    padding: 1.5rem 1.5rem 1.25rem;
+    gap: 0.4rem;
+
+    box-sizing: border-box;
+    width: 100%;
 }
+
+.integrante__card img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: var(--g1);
+    margin-bottom: 0.5rem;
+}
+
+.integrante__card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-bold);
+    text-align: center;
+    line-height: 1.3;
+}
+
+.integrante__card p {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-main);
+    text-align: center;
+    line-height: 1.4;
+}
+
+.integrante__card p strong {
+    color: var(--g4);
+}
+
+.integrante__card p:last-child {
+    margin-top: 0.4rem;
+}
+
+.integrante__card a {
+    color: var(--g4);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.integrante__card a:hover {
+    color: var(--g3);
+}
+
