@@ -15,7 +15,7 @@
     position: relative;
 }
 
-.header__container img {
+.header__container #logo-img {
     width: 13rem;
     padding: 0rem 0rem 0rem 3rem;
     font-style: italic;
